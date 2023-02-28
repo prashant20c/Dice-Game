@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="player-1">
+            <h2 class="status">player 1</h2>
+            <h4>Highscore:<h1 class="highscore">0</h1>
+            </h4>
+            <h4>Current score<h1 class="current">0</h1>
+            </h4>
+        </div>
+
+        <div class="player-2">
+            <h2 class="status">player 2</h2>
+            <h4>Highscore:<h1 class="highscore">0</h1>
+            </h4>
+            <h4>Current score<h1 class="current">0</h1>
+            </h4>
+        </div>
+
+        <div class="button">
+            <button class="new">New Game</button>
+            <img class="dice" src="dice/1.PNG">
+            <button class="roll">Roll a dice</button>
+            <button class="hold">Hold</button>
+
+
+        </div>
+
+    </div>
+    <div class="rule">
+        <h2>Rule:</h2>
+        <ul>
+            <li>The game is played between two players.</li>
+            <li>Each player takes turns rolling a dice.</li>
+            <li>If the player rolls a 1, their turn ends and they lose all the points accumulated in that turn.</li>
+            <li>If the player rolls any other number, that number is added to their current score.</li>
+            <li>The player can choose to hold their current score at any point and add it to their total score.</li>
+            <li>The first player to reach a total score of 100 wins the game.</li>
+          </ul>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

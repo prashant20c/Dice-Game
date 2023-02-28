@@ -1,0 +1,49 @@
+body{
+    color: rgb(231, 217, 217);
+    background-image: linear-gradient(to left, #753682 0%, #bf2e34 100%)
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(172, 159, 1, 0.1);
+    position: relative;
+   
+}
+.player-1,.player-2{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.active{
+    background-color: rgba(12, 11, 11, 0.2);
+    
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    position: absolute;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(225, 230, 225, 0.2);
+    color: azure;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.dice{
+    width: 100px;
+    height: 100px;
+}
+
+.rule{
+    color: rgb(201, 193, 89);
+    padding: 50px;
+    background-color: rgba(84, 161, 200, 0.084);
+}
